@@ -85,14 +85,14 @@ Either install CG File Explorer 16, CM16, or i68's regenerator.
 (If you haven't installed one already). This will be used to regenerate the mod's files once the
 installation is complete.
 
-    - CG File Explorer:
-    http://3dgamedevblog.com/wordpress/?sdm_downloads=cg-file-explorer-16-v0-8
+- CG File Explorer:
+http://3dgamedevblog.com/wordpress/?sdm_downloads=cg-file-explorer-16-v0-8
 
-    - Creation Master 16 2.0:
-    http://downloads.fifa-infinity.com/fifa-16/creation-master-16/
+- Creation Master 16 2.0:
+http://downloads.fifa-infinity.com/fifa-16/creation-master-16/
 
-    - i68 Controller 2.2.9:
-    http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
+- i68 Controller 2.2.9:
+http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 
 **(4.)** 
@@ -245,6 +245,7 @@ Some useful hotkeys:
 If any LUA errors occur, a console window will appear. Common sources of errors include enabling the mod too quickly, at the end of a match instead of before, and not re-attaching to a new FIFA process.
 
 **IMPORTANT**: If error messages continue to print out in rapid succession, close the program and post your error in this thread (include line number).
+
 http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-6512379
 
 
@@ -267,7 +268,6 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 ## **[Downloads]**
 
 FIFA Main Directory Files:
-
 http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
 
 FIFA Futsal Executables (compiled with CE):
