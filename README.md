@@ -88,9 +88,11 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 
 
 - **(4.)** 
-           1. Download the mod archive from here:
+           
+    1. Download the mod archive from here:
            - "Clone or Download" + "Download ZIP"
-           2. Then, download the FIFA directory files found below under "Downloads":
+           
+    2. Then, download the FIFA directory files found below under "Downloads":
            
     
     - Extract the FIFA 16 folder within the archive above to your FIFA 16 main folder and overwrite files as 
