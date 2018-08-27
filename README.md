@@ -1,6 +1,8 @@
 # FIFA Futsal 16
 Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
+
+
 **----<[Requirements]>----**
 
 - FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**any other version will not work** with this mod, and I will **not be providing any links to game executables**).
@@ -8,7 +10,9 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Moddingway Mod 28.0.4 installed
 - Understanding that the applications provided are generated through Cheat Engine
 - If you choose to run the Cheat Table (.ct) files instead of the executables, download Cheat Engine: https://www.cheatengine.org/
-- A bit of time to read through the remainder of this post
+- A bit of time to read through the remainder of this readme
+
+
 
 **----<[Features]>----**
 
@@ -32,6 +36,8 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Disabled fouls to recreate street feel
 (change AI_SETTING_NO_FOUL in cl.ini)
 
+
+
 **----<[Bugs]>----**
 
 - AI doesn't do any skills as of this release. However, the AI does attempt flair passes and flair shots
@@ -52,6 +58,8 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Skill games do not work and may crash the game (freekick skill game), so do not start any skill games prior to the start of a match.
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
 - Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, cards have been disabled (can re-enable in cl.ini)
+
+
 
 **----<[Installation instructions]>----**
 
@@ -134,6 +142,7 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 - **(8.)** Change your FIFA game settings to start in **windowed mode** so that the Skills Battle UI can display over the FIFA window.
 
 
+
 **----<[Starting FIFA Futsal]>----**
 
 - **(1.)** 
@@ -176,16 +185,19 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 
 - **(3.)** 
         
-        - If you are using an executable, choose the settings you wish to play with 
-        (make sure goal size option matches the db you have active)
-        
-        - If you are using a cheat table, click on "Table" on the menu bar and click "Show Cheat Table LUA Script".
-          Then, when the script appears, click the "Execute" button at the bottom of the window.
-          If you don't have FIFA 16 open yet, you'll need to click the "Attach" or "Re-attach" button
-          after you see FIFA's window appear.
+- If you are using an **executable**, choose the settings you wish to play with 
+(make sure goal size option matches the db you have active)
+
+- If you are using a **cheat table**, click on "Table" on the menu bar and click "Show Cheat Table LUA Script".
+  Then, when the script appears, click the "Execute" button at the bottom of the window.
+
+  If you don't have FIFA 16 open yet, you'll need to click the "Attach" or "Re-attach" button
+  after you see FIFA's window appear.
+
+  Now, you can choose your settings.
   
 
-- **(4.)** Once the **language selection screen appears**, you can enable the mod
+- **(4.)** Once the **language selection screen appears**, you can enable the mod.
 
 - **(5.)** Some useful hotkeys:
 
@@ -203,6 +215,7 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-6512379
 
 
+
 **----<[Recommendations and Notes]>----**
 
 - Best played with fouls off as freekicks and any setplays cause glitches and break immersion because the game must reposition every player at times
@@ -212,9 +225,14 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 - Last Man Standing should be played with fouls off, as a red card prevents teams from winning (can't score one goal for every player).
 - Halves must be skipped once a team reaches 5 goals to end the game. I have yet to find a way to directly trigger the end of a half
 
+
+
 **----<[Downloads]>----**
+
 FIFA Main Directory Files:
 http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
+
+
 
 **----<[CREDITS]>----**
 
