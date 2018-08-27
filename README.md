@@ -96,9 +96,10 @@ installation is complete.
 **(4.)** 
            
 1. Download the mod archive from here:
-- "Clone or Download" + "Download ZIP"
+Green "Clone or Download" button + "Download ZIP"
 
 2. Then, download the FIFA directory files found below under "[Downloads]".
+
 3. (optional) You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
 
 Where to extract:
@@ -131,9 +132,9 @@ Different options:
 - pitch files (FIFA 16\data\sceneassets\pitch):
 
 		The pitch file pitch_common_textures.rx3
-		has two variants -- one with a white pitch and one with a green pitch. By default, the white pitch
-		is active, but if you want to try out the other version, rename the white variant to something else
-		and rename the green variant to "pitch_common_textures.rx3".
+		has two variants -- one with a white pitch and one with a green pitch. By default, the 
+		white pitch is active, but if you want to try out the other version, rename the
+		white variant to  something else and rename the green variant to "pitch_common_textures.rx3".
 
 - database (FIFA 16\data\db):
 
@@ -143,7 +144,8 @@ Different options:
 		-- fifa_ng_db_long.db         (long goals)
 
 		If you wish to use a different goal size, rename the db file you want to use to "fifa_ng_db".
-		Restart the game, choose the corresponding option in the futsal configurator, and you should see the changes.
+		Restart the game, choose the corresponding option in the futsal configurator, and you should 
+		see the changes.
 
 
 - Skills Battle UI:
