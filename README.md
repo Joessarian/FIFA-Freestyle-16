@@ -1,15 +1,16 @@
 # FIFA-Futsal-16
 Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
-----<[Requirements]>----
+**----<[Requirements]>----**
 
-- FIFA 16 exe product version 16.0.2904053, last updated July 6, 2016 (any other version will not work with this mod, and I will not be providing any links to executables).
+- FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**any other version will not work** with this mod, and I will **not be providing any links to game executables**).
 - Ability to play in windowed mode (if using the skill points UI)
 - Moddingway Mod 28.0.4 installed
-- Understanding that the applications provided are generated through Cheat Engine: https://www.cheatengine.org/
+- Understanding that the applications provided are generated through Cheat Engine
+- If you choose to run the Cheat Table (.ct) files instead of the executables, download Cheat Engine: https://www.cheatengine.org/
 - A bit of time to read through the remainder of this post
 
-----<[Features]>----
+**----<[Features]>----**
 
 - 5v5, 4v4, 3v3, 2v2, and 1v1 action, with or without goalies
 - Smaller field
@@ -17,19 +18,20 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Three game modes: Regular (football rules), Last Man Standing, and Skills Battle (both as in FIFA Street)
 - Option to set up invisible walls around pitch and disable out-of-play rules
 - Custom street UI for Skills Battle scoring (two sizes):
-    -- Color-coded skillmove ID panel:
-        --- White, Green, Yellow, Red in order of increasing points
-        --- Blue for Beats and Skill Beats
-        --- Purple for fancy passes, shots, and pannas
-        --- Orange for goals
-    -- Skill Bank displays current accumulated skill move points for dribble possession (resets upon loss of possession)
+        
+        Color-coded skillmove ID panel:
+            - White, Green, Yellow, Red in order of increasing points
+            - Blue for Beats and Skill Beats
+            - Purple for fancy passes, shots, and pannas
+            - Orange for goals
+            - Skill Bank displays current accumulated skill move points for dribble possession (resets upon loss of possession)
  
 - Disabled slide tackles to force AI into attempting more standing tackles. Leads to more missed tackles and improvement in player ability to beat defenders
 (change AI_NO_SLIDE_TACKLE in cl.ini)
 - Disabled fouls to recreate street feel
 (change AI_SETTING_NO_FOUL in cl.ini)
 
-----<[Bugs]>----
+**----<[Bugs]>----**
 
 - AI doesn't do any skills as of this release. However, the AI does attempt flair passes and flair shots
 - Players sometimes unresponsive to ball after bounce off walls
@@ -50,18 +52,18 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
 - Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, cards have been disabled (can re-enable in cl.ini)
 
-----<[Installation instructions]>----
+**----<[Installation instructions]>----**
 
-- (1.) Ensure that you have a "fifa16.exe" that was last updated on
+- **(1.)** Ensure that you have a "fifa16.exe" that was last updated on
 July 6, 2016. Any other .exe version will not be compatible with this mod.
 
-- (2.) Install the Moddingway Mod, up to and including version 28.0.4:
+- **(2.)** Install the Moddingway Mod, up to and including version 28.0.4:
 https://www.moddingway.com/file/231051.html
 This mod uses the 10.0 version of Moddingway's database.
 NOTE: Make sure that you backup your current database, if you have one in use:
 "fifa_ng_db.db" in FIFA 16\data\db
 
-- (3.) Either install CG File Explorer 16, CM16, or i68's regenerator.
+- **(3.)** Either install CG File Explorer 16, CM16, or i68's regenerator.
 
     (If you haven't installed one already). This will be used to regenerate the mod's files once the
     installation is complete.
@@ -76,9 +78,9 @@ NOTE: Make sure that you backup your current database, if you have one in use:
     http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 
-- (4.) Extract the FIFA 16 folder within the archive (below in Download section) to your FIFA 16 main folder and overwrite files as necessary. Extract the applications to a destination of your choice.
+- **(4.)** Extract the FIFA 16 folder within the archive (below in Download section) to your FIFA 16 main folder and overwrite files as necessary. Extract the applications to a destination of your choice.
 
-- (5.) Regenerate .bh files using any of the programs listed in step 3.
+- **(5.)** Regenerate .bh files using any of the programs listed in step 3.
     
     Find your FIFA 16 main folder and then:
 
@@ -86,7 +88,7 @@ NOTE: Make sure that you backup your current database, if you have one in use:
     Creation Master 16: Tools->"Regenerate BH"
     i68 Controller: "Regenerator" button
 
-- (6.) Different options:
+- **(6.)** Different options:
 
     - cl.ini:
 
@@ -121,24 +123,35 @@ NOTE: Make sure that you backup your current database, if you have one in use:
  
     Once you regenerate, you can edit these files without regenerating again. Upon restart of FIFA 16, you should see your changes.
  
-- (7.) (OPTIONAL) Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
+- **(7.)** (OPTIONAL) Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
 
-- (8.) Change your FIFA game settings to start in windowed mode so that the Skills Battle UI can display over the FIFA window.
+- **(8.)** Change your FIFA game settings to start in **windowed mode** so that the Skills Battle UI can display over the FIFA window.
 
 
-----<[Starting FIFA Futsal]>----
+**----<[Starting FIFA Futsal]>----**
 
-- (1.) Start up the .exe file corresponding to your screen resolution.
+- **(1.)** Start up the .exe file corresponding to your screen resolution.
 
-- (2.) If your antivirus detects the file as suspicious, it is because the .exe was generated by Cheat Engine and attaches to the FIFA process in order to debug and change its low-level code.
+- **(2.)** If your antivirus detects the file as suspicious, it is because the .exe was generated by Cheat Engine and attaches to the FIFA process in order to debug and change its low-level code.
 
-Read up on Cheat Engine here: https://www.cheatengine.org/
+    Read up on Cheat Engine here: https://www.cheatengine.org/
 
-- (3.) Choose the settings you wish to play with (make sure goal size option matches the db you have active)
 
-- (4.) Once the language selection screen appears, you can enable the mod
+    **If you have Cheat Engine installed**:
 
-- (5.) Some useful hotkeys:
+        To view the source code for the .exe, open up the cheat table (say no if it asks to run a LUA script, click on "Table" on the menu bar, and click "Show Cheat Table LUA Script". This script will correspond with the one found in this repository (same script for both cheat tables and executables.
+
+        You can generate an exe file of your own by clicking "Save As", change "Save as type" to "Cheat Engine Trainer Standalone", choose where you want to save it, and click "Save". 
+
+        A form will pop up. Choose the following settings: "Gigantic", "Target process is 64 bit, "LUA Symbols", "Max" for compression.
+        Lastly, choose the icon file found within the downloaded zip file and click generate.
+
+
+- **(3.)** Choose the settings you wish to play with (make sure goal size option matches the db you have active)
+
+- **(4.)** Once the **language selection screen appears**, you can enable the mod
+
+- **(5.)** Some useful hotkeys:
 
     - Shift + F5: attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
  
@@ -148,12 +161,13 @@ Read up on Cheat Engine here: https://www.cheatengine.org/
  
     - Shift + F8: Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
  
-- (6.) If any LUA errors occur, a console window will appear. Common sources of errors include enabling the mod too quickly, at the end of a match instead of before, and not re-attaching to a new FIFA process.
+- **(6.)** If any LUA errors occur, a console window will appear. Common sources of errors include enabling the mod too quickly, at the end of a match instead of before, and not re-attaching to a new FIFA process.
 
-IMPORTANT: If error messages continue to print out in rapid succession, close the program and post your error in this thread (include line number).
+**IMPORTANT**: If error messages continue to print out in rapid succession, close the program and post your error in this thread (include line number).
+http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-6512379
 
 
-----<[Recommendations and Notes]>----
+**----<[Recommendations and Notes]>----**
 
 - Best played with fouls off as freekicks and any setplays cause glitches and break immersion because the game must reposition every player at times
 - Also best played with walls enabled for the same reason as above
@@ -161,8 +175,8 @@ IMPORTANT: If error messages continue to print out in rapid succession, close th
 - For Last Man Standing, time is frozen at zero to allow the game to properly conclude when a team nets 5 goals
 - Last Man Standing should be played with fouls off, as a red card prevents teams from winning (can't score one goal for every player).
 - Halves must be skipped once a team reaches 5 goals to end the game. I have yet to find a way to directly trigger the end of a half
- 
-----<[CREDITS]>----
+
+**----<[CREDITS]>----**
 
     Dark Byte for Cheat Engine:
     https://www.cheatengine.org/
