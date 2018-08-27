@@ -262,8 +262,9 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 ## **[Changelog]**
 
 **1.0.1:**
-        - Fixed bug preventing automatic end to half in Last Man Standing
-        - Turned off fouls by default
+
+	- Fixed bug preventing automatic end to half in Last Man Standing
+	- Turned off fouls by default
 
 ## **[Downloads]**
 
@@ -281,16 +282,16 @@ https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
 ## **[Credits]**
 
-    Dark Byte for Cheat Engine:
-    https://www.cheatengine.org/
+- Dark Byte for Cheat Engine:
+https://www.cheatengine.org/
 
-    Ariel and the Moddingway Team for the Moddingway Mod:
-    https://www.moddingway.com/
+- Ariel and the Moddingway Team for the Moddingway Mod:
+https://www.moddingway.com/
 
-    Rinaldo for Creation Master 16
+- Rinaldo for Creation Master 16
 
-    Shawminator for CG File Explorer 16
+- Shawminator for CG File Explorer 16
 
-    iard68 for i68 Controller
+- iard68 for i68 Controller
 
-    Koczman Bálint for the Capture It font
+- Koczman Bálint for the Capture It font
