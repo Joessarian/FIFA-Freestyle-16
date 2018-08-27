@@ -5,7 +5,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
 ## **[Requirements]**
 
-- FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**any other version will not work** with this mod, and I will **not be providing any links to game executables**).
+- FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**I will not be providing any links to game executables**).
 - Ability to play in windowed mode (if using the skill points UI)
 - Moddingway Mod 28.0.4 installed
 - Understanding that the applications provided are generated through Cheat Engine
@@ -45,7 +45,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Can't change controlled player at times because receiver selection bugs out upon expected out-of-play sequence
 - Goalies unaware of ball position if ball hits wall and bounces towards them
 - Close direct freekicks freeze for a minute during setup of wall due to second/third kick taker or goalkeeper positioned inside goal (recommended to turn off fouls in cl.ini)
-- Offsides sometimes called incorrectly when goalies are disabled. Turning off offsides solves the problem.
+- Offsides sometimes called incorrectly when goalies are disabled. **Turning off offsides solves the problem**.
 - Player assigned to near post on corner kick will position where post would have stood if field were bigger. These are hard-coded reposition locations.
 - Goalie doesn't hug post when ball is near corner
 - Sometimes, all players must be teleported onto the field for freekicks to allow continuation of play
@@ -54,10 +54,10 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Fancy shots sometimes register as fancy passes with low power
 - Panna detection is a bit iffy due to limitations of in-game function used to detect pannas
 - Injuries to AI players on the field cause the AI to play shorthanded following substitution of the injured player
-(possible solution is to disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0)
-- Skill games do not work and may crash the game (freekick skill game), so do not start any skill games prior to the start of a match.
+(possible solution is to **disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0**)
+- Skill games do not work and may crash the game (freekick skill game), so **do not start any skill games prior to the start of a match**.
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
-- Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, cards have been disabled (can re-enable in cl.ini)
+- Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, **cards have been disabled** (can re-enable in cl.ini)
 
 
 
@@ -232,7 +232,7 @@ Once the **language selection screen appears**, you can enable the mod.
 
 Some useful hotkeys:
 
-- Shift + F5: attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
+- Shift + F5: Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
 
 - Shift + F6: Enable/disable the mod
 
