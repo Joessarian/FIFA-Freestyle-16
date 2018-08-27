@@ -87,7 +87,10 @@ NOTE: Make sure that you backup your current database, if you have one in use:
     http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 
-- **(4.)** Download the archive from here and the FIFA directory files found below under "Downloads":
+- **(4.)** 
+           1. Download the mod archive from here:
+           - "Clone or Download" + "Download ZIP"
+           2. Then, download the FIFA directory files found below under "Downloads":
            
     
     - Extract the FIFA 16 folder within the archive above to your FIFA 16 main folder and overwrite files as 
