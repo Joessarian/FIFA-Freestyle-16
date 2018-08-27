@@ -167,7 +167,7 @@ Change your FIFA game settings to start in **windowed mode** so that the Skills 
 
 
 
-**----<[Starting FIFA Futsal]>----**
+## **[Starting FIFA Futsal]**
 
 **(1.)** 
 
