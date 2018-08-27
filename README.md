@@ -1,10 +1,6 @@
 # FIFA-Futsal-16
 Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
--==========================================-
--================ FIFA Futsal 16 ================-
--==========================================-
-
 ----<[Requirements]>----
 
 - FIFA 16 exe product version 16.0.2904053, last updated July 6, 2016 (any other version will not work with this mod, and I will not be providing any links to executables).
