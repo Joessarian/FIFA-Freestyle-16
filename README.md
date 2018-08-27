@@ -71,7 +71,9 @@ Ensure that you have a "fifa16.exe" that was last updated on
 **(2.)** 
 
 Install the Moddingway Mod, up to and including version 28.0.4:
+
 https://www.moddingway.com/file/231051.html
+
 This mod uses the 10.0 version of Moddingway's database.
 NOTE: Make sure that you backup your current database, if you have one in use:
 "fifa_ng_db.db" in FIFA 16\data\db
@@ -95,12 +97,11 @@ installation is complete.
 
 **(4.)** 
            
-1. Download the mod archive from here:
-Green "Clone or Download" button + "Download ZIP"
+1. Download the mod archive from here by clicking the green "Clone or Download" button + "Download ZIP"
 
-2. Then, download the FIFA directory files found below under "[Downloads]".
+2. Then, download the FIFA directory files found below under **"[Downloads]"**.
 
-3. (optional) You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
+3.  * *(optional)* * You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
 
 Where to extract:
 
@@ -140,8 +141,8 @@ Different options:
 
 		There are three different databases within the archive. By default, mini goals are enabled:
 		-- fifa_ng_db.db             (mini goals)
-		-- fifa_ng_db_futsal.db     (futsal-sized goals)
-		-- fifa_ng_db_long.db         (long goals)
+		-- fifa_ng_db_futsal.db      (futsal-sized goals)
+		-- fifa_ng_db_long.db        (long goals)
 
 		If you wish to use a different goal size, rename the db file you want to use to "fifa_ng_db".
 		Restart the game, choose the corresponding option in the futsal configurator, and you should 
@@ -159,7 +160,7 @@ Once you regenerate, you can edit these files without regenerating again. Upon r
  
 **(7.)** 
 
-(OPTIONAL) Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
+* *(optional)* * Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
 
 **(8.)** 
 
@@ -266,13 +267,16 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 ## **[Downloads]**
 
 FIFA Main Directory Files:
+
 http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
 
 FIFA Futsal Executables (compiled with CE):
 
-v1.0.1 1440p: https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
+v1.0.1 1440p: 
+https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 
-v1.0.1 1080p: https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
+v1.0.1 1080p: 
+https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
 
 ## **[Credits]**
