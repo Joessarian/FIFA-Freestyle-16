@@ -89,10 +89,10 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 
 - **(4.)** 
            
-    1. Download the mod archive from here:
+    Download the mod archive from here:
            - "Clone or Download" + "Download ZIP"
            
-    2. Then, download the FIFA directory files found below under "Downloads":
+    Then, download the FIFA directory files found below under "Downloads":
            
     
     - Extract the FIFA 16 folder within the archive above to your FIFA 16 main folder and overwrite files as 
@@ -190,16 +190,16 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 
 - **(3.)** 
         
-- If you are using an **executable**, choose the settings you wish to play with 
+If you are using an **executable**, choose the settings you wish to play with 
 (make sure goal size option matches the db you have active)
 
-- If you are using a **cheat table**, click on "Table" on the menu bar and click "Show Cheat Table LUA Script".
-  Then, when the script appears, click the "Execute" button at the bottom of the window.
+If you are using a **cheat table**, click on "Table" on the menu bar and click "Show Cheat Table LUA Script".
+Then, when the script appears, click the "Execute" button at the bottom of the window.
 
-  If you don't have FIFA 16 open yet, you'll need to click the "Attach" or "Re-attach" button
-  after you see FIFA's window appear.
+If you don't have FIFA 16 open yet, you'll need to click the "Attach" or "Re-attach" button
+after you see FIFA's window appear.
 
-  Now, you can choose your settings.
+Now, you can choose your settings.
   
 
 - **(4.)** Once the **language selection screen appears**, you can enable the mod.
