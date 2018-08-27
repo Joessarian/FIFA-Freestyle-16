@@ -24,7 +24,8 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
             - Blue for Beats and Skill Beats
             - Purple for fancy passes, shots, and pannas
             - Orange for goals
-            - Skill Bank displays current accumulated skill move points for dribble possession (resets upon loss of possession)
+            - Skill Bank displays current accumulated skill move points for dribble possession 
+            (resets upon loss of possession)
  
 - Disabled slide tackles to force AI into attempting more standing tackles. Leads to more missed tackles and improvement in player ability to beat defenders
 (change AI_NO_SLIDE_TACKLE in cl.ini)
@@ -78,7 +79,12 @@ NOTE: Make sure that you backup your current database, if you have one in use:
     http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 
-- **(4.)** Extract the FIFA 16 folder within the archive (below in Download section) to your FIFA 16 main folder and overwrite files as necessary. Extract the applications to a destination of your choice.
+- **(4.)** Download the archive from here and the FIFA directory files found below under "Downloads":
+           
+    
+    - Extract the FIFA 16 folder within the archive above to your FIFA 16 main folder and overwrite files as 
+    necessary. 
+    - Extract the applications/script/tables in the other archive to a destination of your choice.
 
 - **(5.)** Regenerate .bh files using any of the programs listed in step 3.
     
@@ -139,12 +145,15 @@ NOTE: Make sure that you backup your current database, if you have one in use:
 
     **If you have Cheat Engine installed**:
 
-        To view the source code for the .exe, open up the cheat table (say no if it asks to run a LUA script, click on "Table" on the menu bar, and click "Show Cheat Table LUA Script". This script will correspond with the one found in this repository (same script for both cheat tables and executables.
+        If you are using a cheat table and wish to view it's associated lua script, then to view the source code
+        open up the cheat table (say no if it asks to run a LUA script, 
+        click on "Table" on the menu bar, and click "Show Cheat Table LUA Script". This script will correspond 
+        with the one found in this repository (same script for both cheat tables and executables).
 
-        You can generate an exe file of your own by clicking "Save As", change "Save as type" to "Cheat Engine Trainer Standalone", choose where you want to save it, and click "Save". 
+        You can generate an exe file of your own (how the exe files are generated) by clicking "Save As", change "Save as type" to               "Cheat Engine Trainer Standalone", choose where you want to save it, and click "Save". 
 
-        A form will pop up. Choose the following settings: "Gigantic", "Target process is 64 bit, "LUA Symbols", "Max" for compression.
-        Lastly, choose the icon file found within the downloaded zip file and click generate.
+        A form will pop up. Choose the following settings: "Gigantic", "Target process is 64 bit, "LUA Symbols", 
+        "Max" for compression. Lastly, choose the icon file found within the downloaded zip file and click generate.
 
 
 - **(3.)** Choose the settings you wish to play with (make sure goal size option matches the db you have active)
@@ -175,6 +184,10 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 - For Last Man Standing, time is frozen at zero to allow the game to properly conclude when a team nets 5 goals
 - Last Man Standing should be played with fouls off, as a red card prevents teams from winning (can't score one goal for every player).
 - Halves must be skipped once a team reaches 5 goals to end the game. I have yet to find a way to directly trigger the end of a half
+
+**----<[Downloads]>----**
+FIFA Main Directory Files:
+http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
 
 **----<[CREDITS]>----**
 
