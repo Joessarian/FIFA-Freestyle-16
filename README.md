@@ -5,7 +5,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
 ## **[Requirements]**
 
-- FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**any other version will not work** with this mod, and I will **not be providing any links to game executables**).
+- FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**I will not be providing any links to game executables**).
 - Ability to play in windowed mode (if using the skill points UI)
 - Moddingway Mod 28.0.4 installed
 - Understanding that the applications provided are generated through Cheat Engine
@@ -45,7 +45,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Can't change controlled player at times because receiver selection bugs out upon expected out-of-play sequence
 - Goalies unaware of ball position if ball hits wall and bounces towards them
 - Close direct freekicks freeze for a minute during setup of wall due to second/third kick taker or goalkeeper positioned inside goal (recommended to turn off fouls in cl.ini)
-- Offsides sometimes called incorrectly when goalies are disabled. Turning off offsides solves the problem.
+- Offsides sometimes called incorrectly when goalies are disabled. **Turning off offsides solves the problem**.
 - Player assigned to near post on corner kick will position where post would have stood if field were bigger. These are hard-coded reposition locations.
 - Goalie doesn't hug post when ball is near corner
 - Sometimes, all players must be teleported onto the field for freekicks to allow continuation of play
@@ -54,10 +54,10 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Fancy shots sometimes register as fancy passes with low power
 - Panna detection is a bit iffy due to limitations of in-game function used to detect pannas
 - Injuries to AI players on the field cause the AI to play shorthanded following substitution of the injured player
-(possible solution is to disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0)
-- Skill games do not work and may crash the game (freekick skill game), so do not start any skill games prior to the start of a match.
+(possible solution is to **disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0**)
+- Skill games do not work and may crash the game (freekick skill game), so **do not start any skill games prior to the start of a match**.
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
-- Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, cards have been disabled (can re-enable in cl.ini)
+- Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, **cards have been disabled** (can re-enable in cl.ini)
 
 
 
@@ -71,7 +71,9 @@ Ensure that you have a "fifa16.exe" that was last updated on
 **(2.)** 
 
 Install the Moddingway Mod, up to and including version 28.0.4:
+
 https://www.moddingway.com/file/231051.html
+
 This mod uses the 10.0 version of Moddingway's database.
 NOTE: Make sure that you backup your current database, if you have one in use:
 "fifa_ng_db.db" in FIFA 16\data\db
@@ -83,23 +85,23 @@ Either install CG File Explorer 16, CM16, or i68's regenerator.
 (If you haven't installed one already). This will be used to regenerate the mod's files once the
 installation is complete.
 
-    - CG File Explorer:
-    http://3dgamedevblog.com/wordpress/?sdm_downloads=cg-file-explorer-16-v0-8
+- CG File Explorer:
+http://3dgamedevblog.com/wordpress/?sdm_downloads=cg-file-explorer-16-v0-8
 
-    - Creation Master 16 2.0:
-    http://downloads.fifa-infinity.com/fifa-16/creation-master-16/
+- Creation Master 16 2.0:
+http://downloads.fifa-infinity.com/fifa-16/creation-master-16/
 
-    - i68 Controller 2.2.9:
-    http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
+- i68 Controller 2.2.9:
+http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 
 **(4.)** 
            
-1. Download the mod archive from here:
-- "Clone or Download" + "Download ZIP"
+1. Download the mod archive from here by clicking the green "Clone or Download" button + "Download ZIP"
 
-2. Then, download the FIFA directory files found below under "[Downloads]".
-3. (optional) You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
+2. Then, download the FIFA directory files found below under **"[Downloads]"**.
+
+3.  * *(optional)* * You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
 
 Where to extract:
 
@@ -131,19 +133,20 @@ Different options:
 - pitch files (FIFA 16\data\sceneassets\pitch):
 
 		The pitch file pitch_common_textures.rx3
-		has two variants -- one with a white pitch and one with a green pitch. By default, the white pitch
-		is active, but if you want to try out the other version, rename the white variant to something else
-		and rename the green variant to "pitch_common_textures.rx3".
+		has two variants -- one with a white pitch and one with a green pitch. By default, the 
+		white pitch is active, but if you want to try out the other version, rename the
+		white variant to  something else and rename the green variant to "pitch_common_textures.rx3".
 
 - database (FIFA 16\data\db):
 
 		There are three different databases within the archive. By default, mini goals are enabled:
 		-- fifa_ng_db.db             (mini goals)
-		-- fifa_ng_db_futsal.db     (futsal-sized goals)
-		-- fifa_ng_db_long.db         (long goals)
+		-- fifa_ng_db_futsal.db      (futsal-sized goals)
+		-- fifa_ng_db_long.db        (long goals)
 
 		If you wish to use a different goal size, rename the db file you want to use to "fifa_ng_db".
-		Restart the game, choose the corresponding option in the futsal configurator, and you should see the changes.
+		Restart the game, choose the corresponding option in the futsal configurator, and you should 
+		see the changes.
 
 
 - Skills Battle UI:
@@ -157,7 +160,7 @@ Once you regenerate, you can edit these files without regenerating again. Upon r
  
 **(7.)** 
 
-(OPTIONAL) Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
+* *(optional)* * Install the following font for the UI if you want to: https://www.dafont.com/capture-it.font?l[]=10&l[]=1
 
 **(8.)** 
 
@@ -165,7 +168,7 @@ Change your FIFA game settings to start in **windowed mode** so that the Skills 
 
 
 
-**----<[Starting FIFA Futsal]>----**
+## **[Starting FIFA Futsal]**
 
 **(1.)** 
 
@@ -229,7 +232,7 @@ Once the **language selection screen appears**, you can enable the mod.
 
 Some useful hotkeys:
 
-- Shift + F5: attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
+- Shift + F5: Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
 
 - Shift + F6: Enable/disable the mod
 
@@ -242,6 +245,7 @@ Some useful hotkeys:
 If any LUA errors occur, a console window will appear. Common sources of errors include enabling the mod too quickly, at the end of a match instead of before, and not re-attaching to a new FIFA process.
 
 **IMPORTANT**: If error messages continue to print out in rapid succession, close the program and post your error in this thread (include line number).
+
 http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-6512379
 
 
@@ -258,33 +262,41 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 ## **[Changelog]**
 
 **1.0.1:**
-        - Fixed bug preventing automatic end to half in Last Man Standing
-        - Turned off fouls by default
+
+	- Fixed bug preventing automatic end to half in Last Man Standing
+	- Turned off fouls by default
 
 ## **[Downloads]**
 
 FIFA Main Directory Files:
+
 http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
+
+-or-
+
+https://drive.google.com/open?id=1Xp6-xzsNrByEjh6fRXmS2OizBWb0g8M1
 
 FIFA Futsal Executables (compiled with CE):
 
-v1.0.1 1440p: https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
+v1.0.1 1440p: 
+https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 
-v1.0.1 1080p: https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
+v1.0.1 1080p: 
+https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
 
 ## **[Credits]**
 
-    Dark Byte for Cheat Engine:
-    https://www.cheatengine.org/
+- Dark Byte for Cheat Engine:
+https://www.cheatengine.org/
 
-    Ariel and the Moddingway Team for the Moddingway Mod:
-    https://www.moddingway.com/
+- Ariel and the Moddingway Team for the Moddingway Mod:
+https://www.moddingway.com/
 
-    Rinaldo for Creation Master 16
+- Rinaldo for Creation Master 16
 
-    Shawminator for CG File Explorer 16
+- Shawminator for CG File Explorer 16
 
-    iard68 for i68 Controller
+- iard68 for i68 Controller
 
-    Koczman Bálint for the Capture It font
+- Koczman Bálint for the Capture It font
