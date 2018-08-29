@@ -269,7 +269,7 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 
 FIFA Main Directory Files:
 
-https://drive.google.com/open?id=1vxPMXxJI5jDDrswP2Am3jENAQPenSdis
+https://drive.google.com/open?id=1BgQg8sf4GmeX15-SB_dhcefuOB78fIW4
 
 FIFA Futsal Executables (compiled with CE):
 
@@ -279,6 +279,11 @@ https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 v1.0.1 1080p: 
 https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
+## **[Contributors]**
+
+**PrinceDiman2018:**
+- pausemenuflow.nav file fix for skillgames crash pre-match
+- Removal of 3d grass
 
 ## **[Credits]**
 
