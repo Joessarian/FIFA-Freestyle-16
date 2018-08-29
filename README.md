@@ -55,7 +55,6 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Panna detection is a bit iffy due to limitations of in-game function used to detect pannas
 - Injuries to AI players on the field cause the AI to play shorthanded following substitution of the injured player
 (possible solution is to **disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0**)
-- Skill games do not work and may crash the game (freekick skill game), so **do not start any skill games prior to the start of a match**.
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
 - Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, **cards have been disabled** (can re-enable in cl.ini)
 
@@ -270,11 +269,7 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 
 FIFA Main Directory Files:
 
-http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
-
--or-
-
-https://drive.google.com/open?id=1Xp6-xzsNrByEjh6fRXmS2OizBWb0g8M1
+https://drive.google.com/open?id=1vxPMXxJI5jDDrswP2Am3jENAQPenSdis
 
 FIFA Futsal Executables (compiled with CE):
 
