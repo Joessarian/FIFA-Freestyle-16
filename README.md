@@ -21,7 +21,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Three goal sizes: mini, long, and futsal
 - Three game modes: Regular (football rules), Last Man Standing, and Skills Battle (both as in FIFA Street)
 - Option to set up invisible walls around pitch and disable out-of-play rules
-- Custom street UI for Skills Battle scoring (two sizes):
+- Custom draggable street UI for Skills Battle scoring (two sizes):
         
         Color-coded skillmove ID panel:
             - White, Green, Yellow, Red in order of increasing points
