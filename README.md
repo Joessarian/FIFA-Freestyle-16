@@ -281,10 +281,10 @@ Some useful hotkeys:
 
 **1.0.1:**
 
-        - Fixed bug preventing automatic end to half in Last Man Standing
-        - Fixed skillgames crash bug (thanks PrinceDiman2018)
-        - Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
-        - Turned off fouls by default
+	- Fixed bug preventing automatic end to half in Last Man Standing
+	- Fixed skillgames crash bug (thanks PrinceDiman2018)
+	- Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
+	- Turned off fouls by default
 	
 **1.0.2:**
 	
