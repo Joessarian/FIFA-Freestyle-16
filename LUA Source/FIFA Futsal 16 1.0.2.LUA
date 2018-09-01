@@ -503,7 +503,6 @@ end
 -- Check to see if the opened process (if any) is FIFA 18
 function openFIFAProcess()
   pID = getProcessIDFromProcessName("fifa16.exe");
-  -- print(pID);
 
   if (pID ~= nil) then
      -- disable all post-enable timers to prevent glitches upon restarting FIFA and re-attaching
@@ -565,7 +564,6 @@ end
 function chooseGameMode(gameModeID)
          gameModeID = tonumber(gameModeID);
 
-         print(gameModeID);
          if (gameModeID ~= nil and gameModeID < 3) then
             Main_GameModeList.setItemIndex(gameModeID);
          end
