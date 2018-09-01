@@ -35,8 +35,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 (change AI_NO_SLIDE_TACKLE in cl.ini)
 - Disabled fouls to recreate street feel
 (change AI_SETTING_NO_FOUL in cl.ini)
-- Hotkeys for all options
-See **[Hotkeys]** section below for more info
+- Hotkeys for all options (see **[Hotkeys]** section below for more info)
 
 
 
@@ -286,6 +285,7 @@ Some useful hotkeys:
         - Fixed skillgames crash bug (thanks PrinceDiman2018)
         - Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
         - Turned off fouls by default
+	
 **1.0.2:**
 	
 	- Added hotkeys for game modes, goal size, number of players, and goalie
