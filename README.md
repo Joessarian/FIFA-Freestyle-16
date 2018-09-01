@@ -21,7 +21,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Three goal sizes: mini, long, and futsal
 - Three game modes: Regular (football rules), Last Man Standing, and Skills Battle (both as in FIFA Street)
 - Option to set up invisible walls around pitch and disable out-of-play rules
-- Custom street UI for Skills Battle scoring (two sizes):
+- Custom draggable street UI for Skills Battle scoring (two sizes):
         
         Color-coded skillmove ID panel:
             - White, Green, Yellow, Red in order of increasing points
@@ -55,7 +55,6 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Panna detection is a bit iffy due to limitations of in-game function used to detect pannas
 - Injuries to AI players on the field cause the AI to play shorthanded following substitution of the injured player
 (possible solution is to **disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0**)
-- Skill games do not work and may crash the game (freekick skill game), so **do not start any skill games prior to the start of a match**.
 - Crossbar mesh height above pitch is fixed. However, the collision geometry scales down with the goal net.
 - Red cards can cause a host of bugs including swapped-in player not leaving field at the end of a half and bench players floating in the air. To remedy this, **cards have been disabled** (can re-enable in cl.ini)
 
@@ -263,18 +262,16 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 
 **1.0.1:**
 
-	- Fixed bug preventing automatic end to half in Last Man Standing
-	- Turned off fouls by default
+        - Fixed bug preventing automatic end to half in Last Man Standing
+        - Fixed skillgames crash bug (thanks PrinceDiman2018)
+        - Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
+        - Turned off fouls by default
 
 ## **[Downloads]**
 
 FIFA Main Directory Files:
 
-http://www.mediafire.com/file/tm38gbulg43y27c/FIFA+Futsal+16+Main+Directory+Files.zip
-
--or-
-
-https://drive.google.com/open?id=1Xp6-xzsNrByEjh6fRXmS2OizBWb0g8M1
+https://drive.google.com/open?id=1BgQg8sf4GmeX15-SB_dhcefuOB78fIW4
 
 FIFA Futsal Executables (compiled with CE):
 
@@ -284,6 +281,11 @@ https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 v1.0.1 1080p: 
 https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
+## **[Contributors]**
+
+**PrinceDiman2018:**
+- pausemenuflow.nav file fix for skillgames crash pre-match
+- Removal of 3d grass
 
 ## **[Credits]**
 
