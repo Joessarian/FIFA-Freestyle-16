@@ -305,6 +305,12 @@ https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 v1.0.1 1080p: 
 https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
 
+v1.0.2 1440p:
+https://drive.google.com/open?id=1m4n13qS-QgfiE_Zm0Ah8XVjgW0I8mAeE
+
+v1.0.2 1080p:
+https://drive.google.com/open?id=1E471adR5Fo3C_7Upq3F2RiDlRlL4nLLY
+
 ## **[Contributors]**
 
 **PrinceDiman2018:**
