@@ -6,7 +6,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 ## **[Requirements]**
 
 - FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**I will not be providing any links to game executables**).
-- Ability to play in windowed mode (if using the skill points UI)
+- Ability to play in windowed mode (if using the skill points UI without hotkeys (version 1.0.1 only)
 - Moddingway Mod 28.0.4 installed
 - Understanding that the applications provided are generated through Cheat Engine
 - If you choose to run the Cheat Table (.ct) files instead of the executables, download Cheat Engine: https://www.cheatengine.org/
@@ -290,6 +290,7 @@ Some useful hotkeys:
 	
 	- Added hotkeys for game modes, goal size, number of players, and goalie
 	- Changed hotkeys for walls, streetUI, enable, and attach
+	- Fullscreen with Skills Battle now supported through hotkey-enabling of mod
 
 ## **[Downloads]**
 
