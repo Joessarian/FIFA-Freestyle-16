@@ -35,6 +35,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 (change AI_NO_SLIDE_TACKLE in cl.ini)
 - Disabled fouls to recreate street feel
 (change AI_SETTING_NO_FOUL in cl.ini)
+- Hotkeys for all options (see **[Hotkeys]** section below for more info)
 
 
 
@@ -229,25 +230,43 @@ Once the **language selection screen appears**, you can enable the mod.
 
 **(5.)** 
 
-Some useful hotkeys:
-
-- Shift + F5: Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
-
-- Shift + F6: Enable/disable the mod
-
-- Shift + F7: Toggle walls around field
-
-- Shift + F8: Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
- 
-**(6.)** 
-
 If any LUA errors occur, a console window will appear. Common sources of errors include enabling the mod too quickly, at the end of a match instead of before, and not re-attaching to a new FIFA process.
 
 **IMPORTANT**: If error messages continue to print out in rapid succession, close the program and post your error in this thread (include line number).
 
 http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-6512379
 
+## **[Hotkeys]**
 
+Some useful hotkeys:
+
+**General Settings**
+
+- "Shift + F5": Toggle walls around field
+- "Shift + F6": Toggle use of goalkeepers
+- "Shift + F7": Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
+- "Shift + F8": Enable/disable the mod
+- "Shift + F9": Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
+
+**Game Mode Selection**
+
+- "CTRL + 1": Regular game mode
+- "CTRL + 2": Last Man Standing game mode
+- "CTRL + 3": Skills Battle game mode
+
+**Goal Size**
+
+- "ALT + 1": Futsal goal size
+- "ALT + 2": Long goal size
+- "ALT + 3": Mini goal size
+
+**Number of Players**
+
+- "CTRL + SHIFT + 1": 1v1
+- "CTRL + SHIFT + 2": 2v2
+- "CTRL + SHIFT + 3": 3v3
+- "CTRL + SHIFT + 4": 4v4
+- "CTRL + SHIFT + 5": 5v5
 
 ## **[Recommendations and Notes]**
 
@@ -262,10 +281,15 @@ http://www.soccergaming.com/index.php?threads/fifa-futsal-16.6465838/#post-65123
 
 **1.0.1:**
 
-        - Fixed bug preventing automatic end to half in Last Man Standing
-        - Fixed skillgames crash bug (thanks PrinceDiman2018)
-        - Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
-        - Turned off fouls by default
+	- Fixed bug preventing automatic end to half in Last Man Standing
+	- Fixed skillgames crash bug (thanks PrinceDiman2018)
+	- Removed 3D grass for all graphics settings (thanks PrinceDiman2018)
+	- Turned off fouls by default
+	
+**1.0.2:**
+	
+	- Added hotkeys for game modes, goal size, number of players, and goalie
+	- Changed hotkeys for walls, streetUI, enable, and attach
 
 ## **[Downloads]**
 
@@ -280,6 +304,12 @@ https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
 
 v1.0.1 1080p: 
 https://drive.google.com/open?id=1cvqgo89GG00U6cRv_3kK3dkMKqmdLIWh
+
+v1.0.2 1440p:
+https://drive.google.com/open?id=1m4n13qS-QgfiE_Zm0Ah8XVjgW0I8mAeE
+
+v1.0.2 1080p:
+https://drive.google.com/open?id=1E471adR5Fo3C_7Upq3F2RiDlRlL4nLLY
 
 ## **[Contributors]**
 
