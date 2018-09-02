@@ -291,6 +291,11 @@ Some useful hotkeys:
 	- Added hotkeys for game modes, goal size, number of players, and goalie
 	- Changed hotkeys for walls, streetUI, enable, and attach
 	- Fullscreen with Skills Battle now supported through hotkey-enabling of mod
+	
+**1.0.2.5**
+
+	- Added text-to-speech confirmation for all hotkey presses
+
 
 ## **[Downloads]**
 
@@ -311,6 +316,9 @@ https://drive.google.com/open?id=1m4n13qS-QgfiE_Zm0Ah8XVjgW0I8mAeE
 
 v1.0.2 1080p:
 https://drive.google.com/open?id=1E471adR5Fo3C_7Upq3F2RiDlRlL4nLLY
+
+v1.0.2.5 (both resolutions):
+https://drive.google.com/open?id=1H62uLjeXXte_GI6bRCnNj1ui2FhwYsPq
 
 ## **[Contributors]**
 
