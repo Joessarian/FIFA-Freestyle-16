@@ -1,4 +1,4 @@
-# FIFA Futsal 16
+# FIFA Freestyle 16
 Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
 
@@ -101,7 +101,7 @@ http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 2. Then, download the FIFA directory files found below under **"[Downloads]"**.
 
-3.  * *(optional)* * You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Futsal", (2.))
+3.  * *(optional)* * You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Freestyle", (2.))
 
 Where to extract:
 
@@ -168,7 +168,7 @@ Change your FIFA game settings to start in **windowed mode** so that the Skills 
 
 
 
-## **[Starting FIFA Futsal]**
+## **[Starting FIFA Freestyle]**
 
 **(1.)** 
 
@@ -246,7 +246,7 @@ Some useful hotkeys:
 - "Shift + F6": Toggle use of goalkeepers
 - "Shift + F7": Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
 - "Shift + F8": Enable/disable the mod
-- "Shift + F9": Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Futsal 16 to the new process (disables mod on re-attach).
+- "Shift + F9": Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Freestyle 16 to the new process (disables mod on re-attach).
 
 **Game Mode Selection**
 
@@ -303,7 +303,7 @@ FIFA Main Directory Files:
 
 https://drive.google.com/open?id=1BgQg8sf4GmeX15-SB_dhcefuOB78fIW4
 
-FIFA Futsal Executables (compiled with CE):
+FIFA Freestyle Executables (compiled with CE):
 
 v1.0.1 1440p: 
 https://drive.google.com/open?id=1jtoF8PsTIIRJ0QMK9SzrgP4tEp8GeHWW
