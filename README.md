@@ -318,9 +318,13 @@ Some useful hotkeys:
 
 ## **[Downloads]**
 
-FIFA Main Directory Files:
+FIFA Main Directory Files for **1.0.3 and below**:
 
 https://drive.google.com/open?id=1BgQg8sf4GmeX15-SB_dhcefuOB78fIW4
+
+FIFA Main Directory Files for **1.0.3.5**:
+
+https://drive.google.com/file/d/1rXfCqTOhDfjTdwd9BzACjjCbFCDOAhg_/view?usp=sharing
 
 FIFA Freestyle Executables (compiled with CE):
 
