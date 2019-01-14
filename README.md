@@ -7,7 +7,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 
 - FIFA 16 exe product version **16.0.2904053, last updated July 6, 2016** (**I will not be providing any links to game executables**).
 - Ability to play in windowed mode (if using the skill points UI without hotkeys (version 1.0.1 only)
-- Moddingway Mod 28.0.4 installed
+- Moddingway Mod 28.0.4 installed (version 1.0.3 and below) or Scouser's FIFA 19-to-FIFA 16 conversion base: http://soccergaming.com/index.php?threads/fifa-19-conversions-db-kits-ect.6465940/ (version 1.0.3.5 and above)
 - Understanding that the applications provided are generated through Cheat Engine
 - If you choose to run the Cheat Table (.ct) files instead of the executables, download Cheat Engine: https://www.cheatengine.org/
 - A bit of time to read through the remainder of this readme
@@ -21,6 +21,7 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 - Three goal sizes: mini, long, and futsal
 - Three game modes: Regular (football rules), Last Man Standing, and Skills Battle (both as in FIFA Street)
 - Option to set up invisible walls around pitch and disable out-of-play rules
+- Heavier ball physics and added curve, roll friction
 - Custom draggable street UI for Skills Battle scoring (two sizes):
         
         Color-coded skillmove ID panel:
@@ -42,17 +43,15 @@ Mod for FIFA 16 that attempts to recreate gamemodes from FIFA Street 2012
 ## **[Bugs]**
 
 - AI doesn't do any skills as of this release. However, the AI does attempt flair passes and flair shots
-- Players sometimes unresponsive to ball after bounce off walls
-- Can't change controlled player at times because receiver selection bugs out upon expected out-of-play sequence
-- Goalies unaware of ball position if ball hits wall and bounces towards them
+- Players sometimes unresponsive to ball after bounce off walls (if not playing at Manchester Park with OOP disabled)
+- Can't change controlled player at times because receiver selection bugs out upon expected out-of-play sequence (same reason as above)
+- Goalies unaware of ball position if ball hits wall and bounces towards them (same reason as above)
 - Close direct freekicks freeze for a minute during setup of wall due to second/third kick taker or goalkeeper positioned inside goal (recommended to turn off fouls in cl.ini)
 - Offsides sometimes called incorrectly when goalies are disabled. **Turning off offsides solves the problem**.
 - Player assigned to near post on corner kick will position where post would have stood if field were bigger. These are hard-coded reposition locations.
 - Goalie doesn't hug post when ball is near corner
 - Sometimes, all players must be teleported onto the field for freekicks to allow continuation of play
 - Second, third freekick takers are glitched.
-- End-of-half requires a stoppage in play (out of play or kickoff) to reset stoppage time calculations and enable swift end to half
-- Fancy shots sometimes register as fancy passes with low power
 - Panna detection is a bit iffy due to limitations of in-game function used to detect pannas
 - Injuries to AI players on the field cause the AI to play shorthanded following substitution of the injured player
 (possible solution is to **disable injuries by setting Injury Frequency and/or Injury Severity sliders to 0**)
@@ -70,13 +69,16 @@ Ensure that you have a "fifa16.exe" that was last updated on
 
 **(2.)** 
 
-Install the Moddingway Mod, up to and including version 28.0.4:
-
+**For versions 1.0.3 and below**, install the Moddingway Mod, up to and including version 28.0.4:
 https://www.moddingway.com/file/231051.html
 
 This mod uses the 10.0 version of Moddingway's database.
 NOTE: Make sure that you backup your current database, if you have one in use:
 "fifa_ng_db.db" in FIFA 16\data\db
+
+**For versions 1.0.3.5 and above**, install any graphics files you wish to use from the following thread:
+http://soccergaming.com/index.php?threads/fifa-19-conversions-db-kits-ect.6465940/
+Make sure that you then install the "Main Directory Files" pack below in the "Downloads" section afterward
 
 **(3.)** 
 
@@ -97,9 +99,11 @@ http://downloads.fifa-infinity.com/fifa-16/i68-controller-2-0-2/
 
 **(4.)** 
            
-1. Download the mod archive from here by clicking the green "Clone or Download" button + "Download ZIP"
+1. Download the mod's .exe files or the .ct files.
+If you want to use the .exe file, then click on the "Programs" folder above, choose your version, and click the "Download" button.
+If you want to use the .ct file, click on the "Cheat Tables" folder above, choose your version, click "Download", right-click on the resulting raw data, and save as a .ct file.
 
-2. Then, download the FIFA directory files found below under **"[Downloads]"**.
+2. Then, download the FIFA directory files found below under **"[Downloads]"** for your version.
 
 3.  * *(optional)* * You can also download the executables in the download section, but keep in mind that some antiviruses will flag them as malicious. (see below: "Starting FIFA Freestyle", (2.))
 
@@ -123,7 +127,7 @@ Find your FIFA 16 main folder and then:
 
 Different options:
 
-  - cl.ini:
+- cl.ini:
 
 		To re-enable fouls, change AI_SETTING_NO_FOUL = 1 to AI_SETTING_NO_FOUL = 0
 		(requires restart of game to confirm changes).
@@ -151,7 +155,7 @@ Different options:
 
 - Skills Battle UI:
 
-		Two different sizes offered (see which works best for you):
+		Two different sizes offered with versions 1.0.3 and lower (see which works best for you):
 		-- Use the 1080p .exe or .ct if you are using a 1080p resolution or below.
 		-- Use the 1440p .exe or .ct if you are using a 1440p resolution or above.
 
@@ -226,7 +230,7 @@ Now, you can choose your settings.
 
 **(4.)** 
 
-Once the **language selection screen appears**, you can enable the mod.
+Once the **language selection screen appears**, you can enable the mod using hotkeys or the GUI. Please note that to remain in fullscreen mode, you must use the hotkeys to activate the mod. An audio message should play for each hotkey if activated successfully.
 
 **(5.)** 
 
@@ -243,10 +247,11 @@ Some useful hotkeys:
 **General Settings**
 
 - "Shift + F5": Toggle walls around field
-- "Shift + F6": Toggle use of goalkeepers
-- "Shift + F7": Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
-- "Shift + F8": Enable/disable the mod
-- "Shift + F9": Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Freestyle 16 to the new process (disables mod on re-attach).
+- "Shift + F6": Toggle OOP (out-of-play)
+- "Shift + F7": Toggle use of goalkeepers
+- "Shift + F8": Toggle display of Skills Battle UI (can be shown in other game modes besides Skills Battle but will always show for Skill Battle)
+- "Shift + F9": Enable/disable the mod
+- "Shift + F10": Attach to the FIFA process. This will be done automatically the first time, but if you have to re-open FIFA, hit "Re-Attach" to attach FIFA Freestyle 16 to the new process (disables mod on re-attach).
 
 **Game Mode Selection**
 
@@ -295,7 +300,21 @@ Some useful hotkeys:
 **1.0.2.5**
 
 	- Added text-to-speech confirmation for all hotkey presses
-
+	
+**1.0.3.5**
+       
+        - Included smaller changes from 1.0.3
+	- Manchester Park added courtesy of PrinceDiman2018
+	- New base database (Nov. 26, 2018) thanks to scouser09
+	- Heavier ball physics, slightly more curve on shots, passes
+	- Fixed halftime-end bug
+	- Fixed player repositioning for penalties
+	- Added OOP hotkey for use with Manchester Park
+	- Auto-select Skills UI resolution based on FIFA 16 resolution
+	- Realtime update of GUI options when using hotkeys
+	- Fixed Skills UI toggler
+	- Fixed hotkey activation messages
+	- Fixed crashes related to improper unregistering of symbols
 
 ## **[Downloads]**
 
@@ -320,11 +339,17 @@ https://drive.google.com/open?id=1E471adR5Fo3C_7Upq3F2RiDlRlL4nLLY
 v1.0.2.5 (both resolutions):
 https://drive.google.com/open?id=1H62uLjeXXte_GI6bRCnNj1ui2FhwYsPq
 
+v1.0.3.5:
+Found above in the "Programs" folder or below:
+https://drive.google.com/file/d/1PkULtZLJUI3Wm6Hlg9dXKmKov9Oa1oZm/view?usp=sharing
+
 ## **[Contributors]**
 
 **PrinceDiman2018:**
 - pausemenuflow.nav file fix for skillgames crash pre-match
 - Removal of 3d grass
+- Manchester Park (replacing Training Center)
+- Removal of autoexposure effects for uniform lighting independent of weather
 
 ## **[Credits]**
 
@@ -333,6 +358,15 @@ https://www.cheatengine.org/
 
 - Ariel and the Moddingway Team for the Moddingway Mod:
 https://www.moddingway.com/
+
+- Scouser09: 19->16 db, kit, ball, and logo conversions: 
+http://www.soccergaming.com/index.php?threads/fifa-19-conversions-db-kits-ect.6465940/
+
+- Tokke001: Loc files, jersey, kit fonts, shoe collection, minifaces:
+http://www.soccergaming.com/index.php?threads/fifa-19-conversions-db-kits-ect.6465940/page-2
+
+- imNICKED & eddyedwards10, nabo, pao and pillowbiter for the shoes included in tokke001's collection:
+http://www.soccergaming.com/index.php?threads/imnicked-eddyedwards10-boot-thread.6465313/
 
 - Rinaldo for Creation Master 16
 
