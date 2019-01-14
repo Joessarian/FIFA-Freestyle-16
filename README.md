@@ -302,8 +302,8 @@ Some useful hotkeys:
 	- Added text-to-speech confirmation for all hotkey presses
 	
 **1.0.3.5**
-       
-        - Included smaller changes from 1.0.3
+	
+	- Included smaller changes from 1.0.3
 	- Manchester Park added courtesy of PrinceDiman2018
 	- New base database (Nov. 26, 2018) thanks to scouser09
 	- Heavier ball physics, slightly more curve on shots, passes
